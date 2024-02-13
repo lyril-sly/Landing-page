@@ -148,9 +148,28 @@ a:hover{
     justify-content: space-between;
     padding-bottom: 30px;
     gap: 50px;
-    width: 400px;
+    width: 600px;
     margin:10px auto;
     border: 2px solid rgb(240, 152, 37);
+    border-radius: 40px;
+   }
+
+   .about-text h3{
+    font-size: 40px;
+    padding-bottom: 5px;
+    color: #e40808;
+   }
+
+   .about-text h4{
+    width: 350px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+   }
+
+   .about-text p{
+    padding: 0 10px 0 5px;
    }
 
    .types{
@@ -163,8 +182,9 @@ a:hover{
    }
 
    .new-section{
-    display: flex;
-    background-color: rgb(32, 11, 11);
+    /* display: flex; */
+    background-color: rgba(14, 1, 1, 0.945);
+    width: 100%;
    }
 
    .new-item-text{
@@ -172,12 +192,19 @@ a:hover{
    }
 
    .img{
-    width: 50%;
+    width: 70%;
+    
    }
 
    img{
+   /* width: 120px; */
     width: 100%;
+    /* height: 120px; */
     
+   }
+
+   .new-item-text h2{
+    color: #ffffff;
    }
 
    .Service-item{
@@ -186,7 +213,8 @@ a:hover{
         grid-template-rows: 1fr;
         grid-column-gap: 35px;
         grid-row-gap: 0px;
-        
+        padding: 5px 20px 100px 20px;
+
    }
 
    .service{
@@ -194,3 +222,117 @@ a:hover{
     margin: auto;
     text-align: center;
    }
+
+   .para{
+    width: 40%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+   }
+
+   .para h2{
+    color: #f37171;
+    padding-bottom: 30px;
+   }
+
+   .para p{
+    padding: 5px 10px 60px 10px;
+   }
+
+   .btn-btn{
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 30px;
+   }
+
+   .Service h2{
+    text-align: center;
+    justify-content: center;
+    color:  #a73a3a;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid brown;
+    border-radius: 0 100px;
+   }
+
+   .Service-card{
+    color: black;
+    padding: 20px;
+   }
+   
+   .Service-card h3{
+    padding-bottom: 10px;
+    color: #140c0c;
+    font-size: 25px;
+    font-weight: 900;
+   }
+
+   .Service-card:hover{
+    background-color: #a73a3a;
+    border: 10px solid rgb(243, 163, 58);
+    border-radius: 0 20px;
+   }
+
+   .product-card{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 15px;
+        padding-top: 20px;
+        background-color: #1a1212;
+        height: 100vh;
+        }
+
+    .product-card h2{
+        color: white;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgb(240, 74, 74);
+        border-radius:0 50px;
+    }
+
+    .nav-btn{
+        margin-top: 15px;
+        background-color: transparent;
+        border: 3px solid red;
+        border-radius: 0 20px;
+    }
+
+    .nav-btn:hover{
+        background-color: #e40808;
+        border: none;
+        border-radius: none;
+    }
+
+    .product-card img{
+        border-radius: 20px;
+        padding: 2px 5px 2px 5px;
+    }
+        
+    .product-card img:hover{
+        border: 5px solid white;
+        border-radius: 0 30px;
+    }
+
+    .team-card{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: ; */
+            grid-column-gap: 15px;
+            grid-row-gap: 0px;
+            padding-top: 50px;
+    }
+
+    .team{
+        color: black;
+        text-align: center;
+        justify-content: center;
+    }
+    
