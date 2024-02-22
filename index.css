@@ -19,6 +19,7 @@ body{
     background-position: center;
     width: 100%;
     background-size: cover;
+    position: relative;
     
 }
 
@@ -33,6 +34,9 @@ a:hover{
     padding: 3px ;
 }
 
+.home{
+    color: #e40808;
+}
 
    ul{
     display: flex;
@@ -48,6 +52,7 @@ a:hover{
     color: white;
     font-weight: 500;
     font-size: 26px;
+    position: relative;
    }
 
    .hero{
@@ -150,8 +155,8 @@ a:hover{
     gap: 50px;
     width: 600px;
     margin:10px auto;
-    border: 2px solid rgb(240, 152, 37);
-    border-radius: 40px;
+     border: 2px solid rgb(240, 152, 37);
+    border-radius: 40px; 
    }
 
    .about-text h3{
@@ -281,6 +286,11 @@ a:hover{
     color: white;
    }
 
+   .product-page{
+    padding: 0 20px 0 20px;
+   
+   }
+
    .product-card{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -288,12 +298,17 @@ a:hover{
         grid-column-gap: 30px;
         grid-row-gap: 15px;
         padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         background-color: #1a1212;
         height: 100vh;
+        /* margin-left: 2px;
+        margin-right: 2px; */
+        border-radius: 20px;
         }
 
     .product-card h2{
-        color: white;
+        color: rgb(240, 195, 195);
         text-align: center;
         justify-content: center;
         
@@ -345,8 +360,8 @@ a:hover{
 
     .team-section{
         padding: 20px;
-        border: 2px solid rgb(29, 12, 12);
-        border-radius: 100px;
+        /* border: 2px solid rgb(29, 12, 12);
+        border-radius: 100px; */
         margin: 30px 30px 30px 30px;
     }
 
@@ -369,8 +384,9 @@ a:hover{
             margin-bottom: 2px;
             padding: 20px;
             border: none;
-            border-radius: 20px 50px;
+            /* border-radius: 20px 50px; */
             margin: 0 30px;
+            margin-bottom: 20px;
     }
 
     footer a{
@@ -382,5 +398,12 @@ a:hover{
     .social{
         padding-bottom: 8px;
         font-style: italic;
+    }
+
+    .product-page h1{
+        text-align: center;
+        color: #140c0c;
+        font-size: 30px;
+        font-weight: 900;
     }
     
