@@ -53,6 +53,7 @@ a:hover{
     font-weight: 500;
     font-size: 26px;
     position: relative;
+    box-shadow: 4px 6px 6px rgb(161, 159, 159);
    }
 
    .hero{
@@ -269,6 +270,8 @@ a:hover{
    .Service-card{
     color: black;
     padding: 20px;
+    box-shadow: 5px 10px 15px black;
+    margin-top: 20px;
    }
    
    .Service-card h3{
